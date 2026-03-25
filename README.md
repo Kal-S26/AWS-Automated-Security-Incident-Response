@@ -4,7 +4,8 @@
 Event-driven security automation that responds to security finding events by triggering a Lambda function, sending an email alert, and logging the incident to DynamoDB for audit purposes.
 
 ## Architecture
-EventBridge Rule → Lambda (Incident Handler) → SNS (Email Alerts) + DynamoDB (Incident Audit Log)
+EventBridge Rule → Lambda (Incident Handler) → SNS (Email Alerts) + DynamoDB (Incident Audit Log) <img width="681" height="510" alt="Event-Driven Security Automation Pipeline" src="https://github.com/user-attachments/assets/c382ad10-6a72-4a6e-a566-e5d1d46ec90a" />
+
 
 ## AWS Services Used
 - Amazon EventBridge
