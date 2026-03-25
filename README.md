@@ -28,11 +28,15 @@ For demo/testing, a custom event source is used:
 Sample event: `events/sample_guardduty_finding.json`
 
 ## Proof
-See `/screenshots` for:
-- EventBridge matched events + invocations
-- Lambda CloudWatch logs
-- DynamoDB inserted items
-- SNS email alert
+**- EventBridge monitoring + rules** <img width="1362" height="697" alt="EventBridge - Monitoring" src="https://github.com/user-attachments/assets/0df2f0d0-77b3-4cd2-bd77-45405b0bf7cc" /> <img width="1362" height="697" alt="EventBridge - Rules" src="https://github.com/user-attachments/assets/3d766219-5bd7-4fb3-aa71-3c66ae304e2f" />
+
+
+**- Lambda CloudWatch logs** <img width="1362" height="697" alt="CloudWatch - Logs" src="https://github.com/user-attachments/assets/3cc586aa-b6b9-4ca6-aa76-487980d079b7" />
+
+**- DynamoDB inserted items** <img width="1362" height="697" alt="DynamoDB - Items" src="https://github.com/user-attachments/assets/312351c2-e7f9-4649-882c-9d87afd9264c" />
+
+**- SNS email alert** <img width="1362" height="697" alt="Amazon SNS - Topics" src="https://github.com/user-attachments/assets/ad8f88c8-f800-4f62-9e5b-51858a7275e9" />
+
 
 ## Cleanup (avoid cost)
 - Delete EventBridge rule
